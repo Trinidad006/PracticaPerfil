@@ -2,20 +2,20 @@ import 'package:flutter/material.dart';
 
 /// Centralized color palette for the application
 class AppColors {
-  // Primary Colors
-  static const Color primary = Colors.blue;
-  static const Color primaryLight = Color(0xFF64B5F6);
-  static const Color primaryDark = Color(0xFF1976D2);
+  // Primary Colors - Pink Theme
+  static const Color primary = Color(0xFFFF69B4); // Hot pink
+  static const Color primaryLight = Color(0xFFFFB6C1); // Light pink
+  static const Color primaryDark = Color(0xFFFF1493); // Deep pink
 
   // Background Colors
-  static const Color background = Colors.blueGrey;
-  static const Color cardBackground = Colors.white;
+  static const Color background = Color(0xFFFFF0F5); // Lavender blush
+  static const Color cardBackground = Color(0xFFFFFAFA); // Snow white
 
-  // Gradient Colors
+  // Gradient Colors - Cute Pink Theme
   static const List<Color> cardGradient = [
-    Color(0xFFF5F7FA), // Light blue-grey
-    Color(0xFFFFFFFF), // White
-    Color(0xFFF0F4F8), // Very light blue
+    Color(0xFFFFE4E1), // Misty rose
+    Color(0xFFFFC0CB), // Pink
+    Color(0xFFFFB6C1), // Light pink
   ];
 
   // Text Colors

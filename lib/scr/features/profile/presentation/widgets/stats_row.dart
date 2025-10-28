@@ -10,9 +10,9 @@ class StatsRow extends StatelessWidget {
     return const Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: <Widget>[
-        StatItem(label: 'Publicaciones', value: '536'),
-        StatItem(label: 'Seguidores', value: '5790'),
-        StatItem(label: 'Seguidos', value: '10'),
+        StatItem(label: 'Publicaciones', value: '1.2M'),
+        StatItem(label: 'Seguidores', value: '853.4K'),
+        StatItem(label: 'Seguidos', value: '8'),
       ],
     );
   }

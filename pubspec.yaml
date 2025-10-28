@@ -1,5 +1,5 @@
-name: telefonia
-description: "A new Flutter project."
+name: perfil
+description: "App de perfil con diseño cute y rosita"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -34,6 +34,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  flutter_launcher_icons: ^0.14.4
 
 dev_dependencies:
   flutter_test:
@@ -45,7 +46,6 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
-  flutter_launcher_icons: ^0.13.1
   flutter_native_splash: ^2.4.6
 
 # For information on the generic Dart part of this file, see the
@@ -60,6 +60,8 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+    - assets/icon/
+    - assets/splash/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -92,12 +94,11 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
 
-flutter_launcher_icons:
-  android: true
-  ios: false  # Cambiado a false porque no tienes iOS configurado
-  image_path: "assets/icon/app_icon.png"
-  adaptive_icon_background: "#FFFFFF"
-  adaptive_icon_foreground: "assets/icon/app_icon.png"
+
+#flutter_launcher_icons:
+#  android: true
+ # ios: false
+  #image_path: "assets/icon/app_icon.png"
 
 flutter_native_splash:
   color: "#FFFFFF"
